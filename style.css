@@ -1,0 +1,55 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.nav {
+    background-color: #8B0000; /* Altere para a cor desejada */
+}
+
+.nav-link {
+    color: white; /* Altere para a cor desejada */
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+.banner-image{
+    display: flex;
+    justify-content: center;
+}
+.banner-image img{
+    margin: 0 auto;
+}
+
+.nav-link:hover {
+    color: #ff5733; /* Altere para a cor desejada quando o mouse passar por cima */
+}
+
+.separator-line {
+    width: 1px; /* Largura do separador */
+    height: 20px; /* Altura do separador */
+    background-color: #ccc; /* Cor do separador */
+    margin: 0 10px; /* Espaçamento entre os separadores */
+}
+
+.dropdown-menu {
+    background-color: #333; /* Cor de fundo do dropdown */
+    color: white; /* Cor do texto do dropdown */
+}
+
+.dropdown-item {
+    color: white; /* Cor dos itens do dropdown */
+}
+
+.dropdown-item:hover {
+    background-color: #555; /* Cor de fundo dos itens do dropdown quando o mouse passar por cima */
+}
+
+.icones a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease; /* Adiciona a transição para o efeito de hover */
+}
+
+.icones a:hover {
+    transform: translateY(-5px); /* Move o ícone um pouco para cima no efeito de hover */
+}
+
