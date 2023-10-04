@@ -1,0 +1,99 @@
+/* Reset de estilos para garantir a consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+main {
+    height: 80vh;
+}
+
+.footer {
+    background-color: #5E1C1C;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col {
+    width: 50%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.col:first-child {
+    border-right: 1px solid #ffffff;
+}
+
+.footer h4 {
+    font-size: 24px;
+}
+
+.titulo {
+    color: #ffffff;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.titulo:hover {
+    color: #DE0000;
+    text-decoration: none;
+}
+
+.maps,
+.email,
+.phone,
+.social {
+    color: #ffffff;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.social {
+    color: #ffffff;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.maps:hover,
+.email:hover,
+.phone:hover,
+.social:hover {
+    color: #DE0000;
+    text-decoration: none;
+}
+
+.icones a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.icones a:hover {
+    transform: translateY(-5px);
+}
+
+.slogan {
+    padding-top: 20px;
+    width: 60px;
+    height: 100px;
+}
+
+hr {
+    width: 50%;
+    background-color: #ffffff;
+    border: none;
+}
