@@ -5,44 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Footer.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Footer</title>
 </head>
 
 <body>
     <main></main>
-        <footer class="footer">
+        <footer class="footer" data-aos="fade-up">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="coluna-1">
                         <div class="footer_addresses">
                             <h4>&copy; 2023 <a class="titulo" href="#">Memorial do Judiciário do Rio Grande do Sul</a></h4>
                             <a class="maps" href="https://www.google.com/maps?q=-30.032402,-51.229892&num=1&vpsrc=0&hl=pt-BR&ie=UTF8&ll=-30.032333,-51.230278&spn=0.00405,0.004823&t=m&z=18&iwloc=suck">Como chegar? How to get there?</a>
-                            <br><br>
+                            <br>
                             <strong>E-mail</strong>: <a href="mailto:memorial@tjrs.jus.br" class="email">memorial@tjrs.jus.br</a><br>
-                                <br>
+                            
                             <strong>Telefone</strong>: <a href="tel:+555132107176" class="phone">+55 51 3210-7176</a>
                             </p>
-                            <h4><a href="#" class="social">Nossas Redes Sociais</a></h4>
+                            <h5><a href="#" class="social">Nossas Redes Sociais</a></h5>
                             <div class="icones">
-                                <a href="#" target="_blank">
-                                    <img src="Imagens/Ícones/Instagram Icon.png" width="25" height="25" alt="instagram logo">
+                                <a href="https://www.instagram.com/memorialtjrs/" target="_blank">
+                                    <img src="Imagens/Ícones/Instagram Icon.png" width="26" height="26" alt="instagram logo">
                                 </a>
                                 <a href="#" target="_blank">
-                                    <img src="Imagens/Ícones/Facebook Icon.png" width="25" height="25" alt="facebook logo">
+                                    <img src="Imagens/Ícones/Facebook Icon.png" width="26" height="26" alt="facebook logo">
                                 </a>
                                 <a href="https://www.youtube.com/@tjrsnoticias" target="_blank">
-                                    <img src="Imagens/Ícones/Youtube Icon.png" width="27" height="27" alt="youtube logo">
+                                    <img src="Imagens/Ícones/Youtube Icon.png" width="28" height="28" alt="youtube logo">
                                 </a>
                                 <a href="https://soundcloud.com/user-891322221/podcast-gestando-memorias-ep-0-piloto?si=781aad14318a4d97afc0d004f2b5cc80&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">
-                                    <img src="Imagens/Ícones/Soundcloud Icon.png" width="27" height="27" alt="soundcloud logo">
+                                    <img src="Imagens/Ícones/Soundcloud Icon.png" width="28" height="28" alt="soundcloud logo">
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="coluna-2">
                         <div class="footer-logo">
-                            <img src="Imagens/Logos/Memorial Icon.png" alt="logo memorial">
+                            <img src="Imagens/Logos/Memorial Icon.png" width="147" height="85" class="logo memorial">
                         </div>
                         <hr>
                         <div class="footer-text">
@@ -50,11 +50,15 @@
                                 Pç Marechal Deodoro, 55 - Térreo (conhecida como Praça da Matriz)<br>
                                 Palácio da Justiça - TJRS<br>
                                 Centro Histórico - CEP 90010-906<br>
-                                Porto Alegre, RS Brasil <br><br>
+                                Porto Alegre, RS Brasil
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </footer>
-</body>
+            </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
 </html>
