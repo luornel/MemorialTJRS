@@ -16,21 +16,22 @@
     align-items: center;
 }
 
-.coluna-1 {
-    padding-left: 50px;
-}
 
-.footer h4 {
-    font-size: 20px; 
+.footer  {
     padding: 20px 0;
     white-space: nowrap;
     margin-bottom: 0;
 }
 
-.titulo {
+.text {
     color: #ffffff;
+    font-size: 22px;
     transition: color 0.3s;
     text-decoration: none;
+}
+
+.copy {
+    font-size: 22px;
 }
 
 .titulo:hover {
@@ -39,12 +40,11 @@
 }
 
 .footer-text {
-    text-align: center;
+    text-align: left;
 }
 
-.social {
-    text-align: right;
-    padding: 0;
+.contatos {
+    padding-top: -5px;
 }
 
 .maps,
@@ -72,18 +72,12 @@
 
 .icones a {
     display: inline-block;
-    margin: 0 -5px;
     transition: transform 0.3s ease;
-    border-radius: 50%;
     padding: 8px;
 }
 
 .icones a:hover {
     transform: translateY(-5px);
-}
-
-.coluna-2 {
-    padding-left: 390px;
 }
 
 .footer-logo {
