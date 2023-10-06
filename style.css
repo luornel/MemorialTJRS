@@ -46,10 +46,14 @@ body {
 .icones a {
     display: inline-block;
     margin: 0 10px;
-    transition: transform 0.3s ease; /* Adiciona a transição para o efeito de hover */
+    filter: grayscale(100%); 
+    transition: filter 0.3s ease; 
 }
 
 .icones a:hover {
-    transform: translateY(-5px); /* Move o ícone um pouco para cima no efeito de hover */
+    filter: grayscale(0%);
 }
 
+.x:hover {
+    transform: translateY(-5px); 
+}
