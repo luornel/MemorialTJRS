@@ -1,14 +1,9 @@
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav {
     background-color: #8B0000; /* Altere para a cor desejada */
-}
-
-.nav-link {
-    color: white; /* Altere para a cor desejada */
-    text-decoration: none; /* Remover sublinhado dos links */
 }
 
 .banner-image{
@@ -16,31 +11,12 @@ body {
     justify-content: center;
 }
 .banner-image img{
-    margin: 0 auto;
+    width: 100%;
 }
 
-.nav-link:hover {
-    color: #ff5733; /* Altere para a cor desejada quando o mouse passar por cima */
-}
-
-.separator-line {
-    width: 1px; /* Largura do separador */
-    height: 20px; /* Altura do separador */
-    background-color: #ccc; /* Cor do separador */
-    margin: 0 10px; /* Espaçamento entre os separadores */
-}
-
-.dropdown-menu {
-    background-color: #333; /* Cor de fundo do dropdown */
-    color: white; /* Cor do texto do dropdown */
-}
-
-.dropdown-item {
-    color: white; /* Cor dos itens do dropdown */
-}
-
-.dropdown-item:hover {
-    background-color: #555; /* Cor de fundo dos itens do dropdown quando o mouse passar por cima */
+ul.nav a:hover { 
+    background: linear-gradient(to bottom, #661F20, #490001) !important;
+    color: #ffffff !important;
 }
 
 .icones a {
@@ -54,6 +30,3 @@ body {
     filter: grayscale(0%);
 }
 
-.x:hover {
-    transform: translateY(-5px); 
-}
