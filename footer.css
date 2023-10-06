@@ -1,0 +1,117 @@
+.footer {
+    background: linear-gradient(to bottom, #5E0000, #490001);
+    color: #ffffff;
+    padding: 10px 0 0; 
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer  {
+    padding: 20px 0;
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+
+.titulo-footer {
+    color: #ffffff;
+    font-size: 22px;
+    transition: color 0.3s;
+    text-decoration: none;
+    text-align: center;
+}
+
+.copy {
+    font-size: 22px;
+}
+
+.titulo:hover {
+    color: #DE0000;
+    text-decoration: none;
+}
+
+.footer-text-left {
+    text-align: left;
+}
+
+.footer-text-center {
+    text-align: center;
+}
+
+.footer-text-right {
+    text-align: right;
+}
+
+.contatos {
+    padding-top: -5px;
+}
+
+.redes-sociais,
+.social {
+    margin-top: 50px;
+}
+
+.maps,
+.email,
+.phone,
+.social {
+    color: #ffffff;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.endereço {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.contato {
+    /* margin-top: 50px; */
+    text-align: center;
+}
+
+.social {
+    color: #ffffff;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.maps:hover,
+.email:hover,
+.phone:hover,
+
+.hover {
+    color: #DE0000;
+    text-decoration: none;
+}
+
+.icones a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    margin-right: 5px
+}
+
+.icones a:hover {
+    transform: translateY(-2px);
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+hr {
+    width: 80%;
+    background-color: #ffffff;
+    text-align: center;
+    border: none;
+}
