@@ -1,0 +1,30 @@
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-iner, #mainSlider .carousel-item {
+    height: 60vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-item img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+}
