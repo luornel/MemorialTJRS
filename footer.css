@@ -27,6 +27,11 @@
     transition: color 0.3s;
 }
 
+.redes-sociais {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .redes-sociais,
 .social {
     margin-right: 80px;
