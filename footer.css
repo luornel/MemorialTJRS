@@ -11,13 +11,9 @@
 .footer .container {
     max-width: 1100px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-
-.footer  {
-    padding: 20px;
-    white-space: nowrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .titulo-footer {
@@ -29,14 +25,13 @@
 .redes-sociais {
     font-size: 18px;
     text-decoration: none;
-    margin-left: 13px;
     color: #ffffff;
 }
 
 .redes-sociais,
 .social {
-    margin-right: 80px;
-    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 14px;
 }
 
 .maps,
@@ -57,7 +52,6 @@
     color: #ffffff;
     transition: color 0.3s;
     text-decoration: none;
-    margin-bottom: 68px;
 }
 
 .maps:hover,
@@ -76,4 +70,10 @@
 
 .icones a:hover {
     transform: translateY(-2px);
+}
+
+.LogoTJ150 {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
 }
