@@ -12,7 +12,6 @@ body {
     transform: translateY(-2px);
 }
 
-
 .nav {
     background-color: #8B0000;
 }
@@ -20,11 +19,6 @@ body {
 ul.nav a:hover { 
     background: linear-gradient(to bottom, #661F20, #490001);
     color: #ffffff;
-}
-
-.banner-image{
-    display: flex;
-    justify-content: center;
 }
 
 .grupo-icones {
