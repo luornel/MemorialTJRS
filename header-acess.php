@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>CPAI</title>
+    <!-- Bootstrap core CSS -->
+    <link href="<?php bloginfo(); ?>/style-acess.css" rel="stylesheet">
+</head>
+<body>
+    
+        <!-- Barra de acessibilidade -->
+    <div class="d-none d-lg-block">
+        <div class="container-fluid bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="link-topo" href="#conteudo" title="Ir para o conte&uacute;do">Ir para o conte&uacute;do [1]</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="link-topo" href="#menu" title="Ir para o menu">Ir para o menu [2]</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="link-topo" href="#rodape" title="Ir para o rodap&eacute;">Ir para o rodap&eacute; [3]</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="link-topo" href="#altocontraste" id="altocontraste" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()" title="Alto contraste"><i class="fas fa-adjust icone-topo">
+                                    </i> Alto contraste</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="nav justify-content-end">
+                            
+                            <li class="nav-item">
+                                <a class="link-topo" href="mailto:cgj-cpai@tjrs.jus.br" Contato"><i class="far fa-envelope"></i> Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
